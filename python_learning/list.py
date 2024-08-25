@@ -102,8 +102,8 @@ cities.remove("Daroghawala")
 print(cities)
 print("9 del method")
 del cities[2]
-print(cities)
-print("10 count method")
+print()
+print("10 count method")cities
 cities.count(3)
 print(cities)
 print("11 index method")
