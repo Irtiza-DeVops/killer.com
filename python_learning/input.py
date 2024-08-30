@@ -1,34 +1,49 @@
-# asking friend name
-name =str(input('enter your respected name : '))
-# Asking friend ror their three favourite number
-fav_1 =int(input('enter your first favourite number :'))
-fav_2=int(input('enter your second favourite number :'))
-fav_3 =int(input('enter your third favourite number :'))
+friend_name:str =str(input('enter your respected name : '))
+num_list =[]
+print(f"\n~~Hello !\n ~~ {friend_name}! lets explore your favourite number.Lets gooo!!")
+
+for i in range(1,4):
+    num:int=int(input(f"Enter your {i} favourite number:"))
+    num_list.append(num)
+fav_num=(f'\nThe list of your favourite number is {num_list}')
+print(fav_num)
+print('\n~~Lets,explore whether your favourite numbers is even or odd.Lets gooooooo!!')
+for y in num_list:
+    if y % 2 ==0 :
+        print(f"your favourite number {y} is even.Thats great")
+    else:
+                print(f"your favourite number {y} is odd.Thats great")
 
 
-print(f"~~Hello {name}! lets explore your favourite numbers")
+print('\n~~Now,lets explore the square of your favourite numbers.Lets gooooooo!!' )
 
-# if fav_1 % 2== 0:
-#     print("your number is even")
-# elif fav_2 % 2== 0:
-#     print("your number is even")
-# elif fav_3 % 2== 0:
-#     print("your number is even")
-# else :
-#      print("your number is odd")
-print('~~Lets,explore whether your favourite numbers is even or odd.Lets gooooooo!!')
-print(f"your first favourite number is {fav_1} which is an  {'odd number' if fav_1 % 2 == 1 else 'even number' }")
-print(f"your second favourite number is {fav_2} which is an {'odd number' if fav_2 % 2 == 1 else 'even number' } ")
-print(f"your third favourite number is {fav_3} which is an {'odd number' if fav_3 % 2 == 1 else 'even number' } ")
-print('~~Now,lets explore the square of your favourite numbers.Lets gooooooo!!' )
-print(f"your first favourite number is {fav_1} and its square is : ({fav_1},{fav_1 ** 2})")
-print(f"your second favourite number is {fav_2} and its square is : ({fav_2},{fav_2 ** 2})")
-print(f"your third favourite number is {fav_3} and its square is : ({fav_3},{fav_3 ** 2})")
-print('~~Its time to check the sum of your favourite number.Lets gooo!')
-sum= fav_1 + fav_2 + fav_3
-message=f'''Wow! the total sum of your favourite numbers is {sum} which is a whole number
- Thats Amazing'''
-print(message)
-# print('''~~I hope that you had fun while exploring my programme.
+for x in num_list:
+      print(f"Your  favourite number is {x} and its square is : ({x},{x ** 2})")
+print('\n~~Its time to check the sum of your favourite number.Lets gooo!')
+sum:int=sum(num_list)
+print(f'~~WOW, the total sum of your favourite number is "{sum}",which is your lucky number')
+print(f"\n~~Now,Lets check whether your number ia prime number or not ")
+prime=True
+if sum <=1:
+      prime=False
+      for x in range (2,sum):
+            if sum % 2 ==0:
+              prime =False
+if prime:
+      print(f"\nAmazing!!.The sum of your favourite number is {sum},which is a prime number")
+else:
+            print(f'''\nOh noo!!.The sum of your favourite number is {sum},which is not a prime number.
+                  ~~~Better Luck next time :)''')           
+print('''\n~~I hope that you had fun while exploring my programme.
 # ~~Have a nice day
 # ~~Good Bye      ''')
+
+
+
+
+
+
+      
+      
+
+

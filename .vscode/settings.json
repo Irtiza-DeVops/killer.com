@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["uchiha"]
+  "cSpell.words": ["uchiha"],
+  "python.analysis.typeCheckingMode": "basic"
 }
