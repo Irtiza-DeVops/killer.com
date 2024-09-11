@@ -27,6 +27,7 @@ prime=True
 if sum <=1:
       prime=False
       for x in range (2,sum):
+            
             if sum % 2 ==0:
               prime =False
 if prime:

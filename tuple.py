@@ -40,13 +40,11 @@
 # # tuple3=(tuple1,tuple2)
 # # print(tuple3)
 # # print(tuple3[0])
-# # # repitation
+# # # repitation()*
 # # # slicing (::)
 # # # del
 # # # lenght
 # # tuple4=('irtiza')
 # # print(len(tuple4))
-# # # multiple data type
+# # # multiple data type[int |str ...,]
 # # # 
-
-
