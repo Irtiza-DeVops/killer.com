@@ -120,4 +120,3 @@ while True:
 - **Invalid Operation Handling**: If the entered operation is not valid, it prompts the user to try again with an error emoji.
 ```
 
-This Markdown file provides a clear explanation of the code and highlights the attractive elements added. Let me know if you need any changes!
