@@ -19,7 +19,7 @@
 # print("lalalala")
 import os;
 base_path =r'C:\Users\Master Tech\Desktop\a'
-num_folder=100
+num_folder=0
 for i in range(1,num_folder+1):
     folder_name =f'Folder_{i}'
     folder_path = os.path.join (base_path,folder_name)

@@ -23,3 +23,16 @@ elif age > 10:
     print("You are older than 10!")
 else:
     print("You are 10 years old or younger!")
+    # Additional conditions for age 10
+    if age == 10:
+        if (age % 2) == 0:
+            print("You are an even number!")
+        else:
+            print("You are an odd number!")
+    elif age == 11:
+        print("You are a teenager!")
+    elif age == 12:
+        print("You are a child!")
+    else:
+        print("You are a baby!")
+        
