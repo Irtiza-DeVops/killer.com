@@ -20,7 +20,7 @@ while True:
     print("\nSelect an operation:")
     print("1. Addition (+)")
     print("2. Subtraction (-)")
-    print("3. Multiplication (×)")
+    print("3. Multiplication (*)")
     print("4. Division (÷)")
     print("5. Exit")
     print("****************************************")
@@ -39,7 +39,7 @@ while True:
             print(f"\n✨ The result of {num1} - {num2} = {result} ✨")
         elif operation == '3':
             result = multiply(num1, num2)
-            print(f"\n✨ The result of {num1} × {num2} = {result} ✨")
+            print(f"\n✨ The result of {num1} * {num2} = {result} ✨")
         elif operation == '4':
             result = divide(num1, num2)
             print(f"\n✨ The result of {num1} ÷ {num2} = {result} ✨")
