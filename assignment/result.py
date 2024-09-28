@@ -25,28 +25,27 @@ if qualification == '1' or qualification == "Matric":
         print("⚠️ GPA should be between 0 and 4. Please enter a valid GPA.")
     else:
         print("🎉 All inputs are valid. You're on the right path!")
-        exit()
+    
 
 elif qualification == '2' or qualification == "Intermediate":
     if gpa < 0 or gpa > 4:
         print("⚠️ GPA should be between 0 and 4. Please enter a valid GPA.")
     else:
         print("🎉 All inputs are valid. Keep up the great work!")
-        exit()
 
 elif qualification == '3' or qualification == "Bachelor":
     if gpa < 0 or gpa > 4:
         print("⚠️ GPA should be between 0 and 4. Please enter a valid GPA.")
     else:
         print("🎉 All inputs are valid. You're doing awesome!")
-        exit()
+        
 
 elif qualification == '4' or qualification == "Master":
     if gpa < 0 or gpa > 4:
         print("⚠️ GPA should be between 0 and 4. Please enter a valid GPA.")
     else:
         print("🎉 All inputs are valid. You're at the top of your game!")
-        exit()
+        
 
 else:
     print("❌ Invalid qualification. Please enter a valid option from the list.")
